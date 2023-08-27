@@ -10,3 +10,29 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.header-link {
+    color: var(--main-title-color);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+}
+.header-tell {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: normal;
+        color: var(--main-title-color);
+}
+.header-mail {
+         font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        color: var(--main-title-color);
+}
