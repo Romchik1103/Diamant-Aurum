@@ -1,3 +1,12 @@
+:root {
+    --main-title-color: #ffffff;
+    --second-title-color: #000000;
+    --second-text-color: #D60B51;
+    --third-text-color: #727289;
+    --first-button-color: #ffffff;
+    --second-buton-color: #D60B51;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
