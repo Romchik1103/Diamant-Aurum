@@ -9,30 +9,50 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
 }
 
-.header-link {
-    color: var(--main-title-color);
-        font-size: 16px;
-        font-weight: 700;
-        line-height: normal;
+.header {
+    position: relative;
+    background: #232331;
 }
-.header-tell {
-        font-size: 24px;
-        font-weight: 700;
-        line-height: normal;
-        color: var(--main-title-color);
+
+.header:before {
+    content: '';
+    position: absolute;
+    background-color: var(--second-buton-color);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 25%;
 }
-.header-mail {
-         font-size: 18px;
-        font-weight: 400;
-        line-height: normal;
-        color: var(--main-title-color);
+
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrap {
+    position: relative;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
 }
