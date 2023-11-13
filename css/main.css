@@ -11,7 +11,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-
+ul {
+    margin: 0;
+    padding: 0
+}
 .list {
     list-style: none;
 }
@@ -39,20 +42,66 @@ body {
     max-width: 1180px;
     width: 100%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
 .header-wrap {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
 }
-
+.header-logo {
+    padding-top: 39px;
+    padding-bottom: 24px;
+}
 .header-list {
     display: flex;
+}
+.header-item {
+    margin-right: 33px;
+}
+.header-list li:last-child {
+    margin-right: 0;
+}
+.header-tell {
+    color: #ffffff;
+}
+.header-mail {
+    color: #ffffff;
+}
+.header-link {
+    color: var(--main-title-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 25px;
+        padding-bottom: 25px
+}
+
+.header-tell {
+    color: var(--main-title-color);
+        text-align: right;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.header-mail {
+    color: var(--main-title-color);
+        text-align: right;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+/* --------HERO-------- */
+.hero {
+    background-image: url(../images/bg.jpg);
 }
